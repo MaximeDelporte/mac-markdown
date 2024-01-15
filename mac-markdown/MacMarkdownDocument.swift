@@ -1,5 +1,5 @@
 //
-//  mac_markdownDocument.swift
+//  MacMarkdownDocument.swift
 //  mac-markdown
 //
 //  Created by afx on 15/01/2024.
@@ -14,7 +14,7 @@ extension UTType {
     }
 }
 
-struct mac_markdownDocument: FileDocument {
+struct MacMarkdownDocument: FileDocument {
     var text: String
 
     init(text: String = "Hello, world!") {

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC4BF6F02B55A6E200F49476 /* mac_markdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF6EF2B55A6E200F49476 /* mac_markdownApp.swift */; };
-		FC4BF6F22B55A6E200F49476 /* mac_markdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF6F12B55A6E200F49476 /* mac_markdownDocument.swift */; };
+		FC4BF6F02B55A6E200F49476 /* MacMarkdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF6EF2B55A6E200F49476 /* MacMarkdownApp.swift */; };
+		FC4BF6F22B55A6E200F49476 /* MacMarkdownDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF6F12B55A6E200F49476 /* MacMarkdownDocument.swift */; };
 		FC4BF6F42B55A6E200F49476 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF6F32B55A6E200F49476 /* ContentView.swift */; };
 		FC4BF6F62B55A6E300F49476 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4BF6F52B55A6E300F49476 /* Assets.xcassets */; };
 		FC4BF6F92B55A6E300F49476 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4BF6F82B55A6E300F49476 /* Preview Assets.xcassets */; };
@@ -16,8 +16,8 @@
 
 /* Begin PBXFileReference section */
 		FC4BF6EC2B55A6E200F49476 /* mac-markdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-markdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC4BF6EF2B55A6E200F49476 /* mac_markdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_markdownApp.swift; sourceTree = "<group>"; };
-		FC4BF6F12B55A6E200F49476 /* mac_markdownDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_markdownDocument.swift; sourceTree = "<group>"; };
+		FC4BF6EF2B55A6E200F49476 /* MacMarkdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMarkdownApp.swift; sourceTree = "<group>"; };
+		FC4BF6F12B55A6E200F49476 /* MacMarkdownDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMarkdownDocument.swift; sourceTree = "<group>"; };
 		FC4BF6F32B55A6E200F49476 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC4BF6F52B55A6E300F49476 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4BF6F82B55A6E300F49476 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,13 +55,10 @@
 		FC4BF6EE2B55A6E200F49476 /* mac-markdown */ = {
 			isa = PBXGroup;
 			children = (
-				FC4BF6EF2B55A6E200F49476 /* mac_markdownApp.swift */,
-				FC4BF6F12B55A6E200F49476 /* mac_markdownDocument.swift */,
+				FC4BF6EF2B55A6E200F49476 /* MacMarkdownApp.swift */,
+				FC4BF6F12B55A6E200F49476 /* MacMarkdownDocument.swift */,
 				FC4BF6F32B55A6E200F49476 /* ContentView.swift */,
-				FC4BF6F52B55A6E300F49476 /* Assets.xcassets */,
-				FC4BF6FA2B55A6E300F49476 /* Info.plist */,
-				FC4BF6FB2B55A6E300F49476 /* mac_markdown.entitlements */,
-				FC4BF6F72B55A6E300F49476 /* Preview Content */,
+				FC4BF7012B55A89600F49476 /* Resources */,
 			);
 			path = "mac-markdown";
 			sourceTree = "<group>";
@@ -72,6 +69,17 @@
 				FC4BF6F82B55A6E300F49476 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC4BF7012B55A89600F49476 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC4BF6F52B55A6E300F49476 /* Assets.xcassets */,
+				FC4BF6FA2B55A6E300F49476 /* Info.plist */,
+				FC4BF6FB2B55A6E300F49476 /* mac_markdown.entitlements */,
+				FC4BF6F72B55A6E300F49476 /* Preview Content */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4BF6F02B55A6E200F49476 /* mac_markdownApp.swift in Sources */,
-				FC4BF6F22B55A6E200F49476 /* mac_markdownDocument.swift in Sources */,
+				FC4BF6F02B55A6E200F49476 /* MacMarkdownApp.swift in Sources */,
+				FC4BF6F22B55A6E200F49476 /* MacMarkdownDocument.swift in Sources */,
 				FC4BF6F42B55A6E200F49476 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,16 +284,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "mac-markdown/mac_markdown.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "mac-markdown/Resources/mac_markdown.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mac-markdown/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mac-markdown/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 4CQPKLYWJD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "mac-markdown/Info.plist";
+				INFOPLIST_FILE = "mac-markdown/Resources/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,16 +312,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "mac-markdown/mac_markdown.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "mac-markdown/Resources/mac_markdown.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"mac-markdown/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"mac-markdown/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 4CQPKLYWJD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "mac-markdown/Info.plist";
+				INFOPLIST_FILE = "mac-markdown/Resources/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

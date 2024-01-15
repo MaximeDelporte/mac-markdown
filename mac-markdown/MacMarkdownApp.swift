@@ -1,5 +1,5 @@
 //
-//  mac_markdownApp.swift
+//  MacMarkdownApp.swift
 //  mac-markdown
 //
 //  Created by afx on 15/01/2024.
@@ -8,9 +8,9 @@
 import SwiftUI
 
 @main
-struct mac_markdownApp: App {
+struct MacMarkdownApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: mac_markdownDocument()) { file in
+        DocumentGroup(newDocument: MacMarkdownDocument()) { file in
             ContentView(document: file.$document)
         }
     }

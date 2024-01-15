@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var document: mac_markdownDocument
+    @Binding var document: MacMarkdownDocument
 
     var body: some View {
         TextEditor(text: $document.text)
@@ -16,5 +16,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(document: .constant(mac_markdownDocument()))
+    ContentView(document: .constant(MacMarkdownDocument()))
 }
