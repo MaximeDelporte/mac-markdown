@@ -17,6 +17,11 @@
 		FC4BF7082B57863700F49476 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF7072B57863700F49476 /* WebView.swift */; };
 		FC4BF70A2B578B1D00F49476 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF7092B578B1D00F49476 /* SettingsView.swift */; };
 		FC4BF70C2B57978A00F49476 /* MenuCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF70B2B57978A00F49476 /* MenuCommands.swift */; };
+		FC4BF7152B579A4100F49476 /* ulysses.css in Resources */ = {isa = PBXBuildFile; fileRef = FC4BF7102B579A4100F49476 /* ulysses.css */; };
+		FC4BF7162B579A4100F49476 /* github.css in Resources */ = {isa = PBXBuildFile; fileRef = FC4BF7112B579A4100F49476 /* github.css */; };
+		FC4BF7172B579A4100F49476 /* lopash.css in Resources */ = {isa = PBXBuildFile; fileRef = FC4BF7122B579A4100F49476 /* lopash.css */; };
+		FC4BF7182B579A4100F49476 /* solarizeddark.css in Resources */ = {isa = PBXBuildFile; fileRef = FC4BF7132B579A4100F49476 /* solarizeddark.css */; };
+		FC4BF7192B579A4100F49476 /* StyleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF7142B579A4100F49476 /* StyleSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,11 @@
 		FC4BF7072B57863700F49476 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		FC4BF7092B578B1D00F49476 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		FC4BF70B2B57978A00F49476 /* MenuCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCommands.swift; sourceTree = "<group>"; };
+		FC4BF7102B579A4100F49476 /* ulysses.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ulysses.css; sourceTree = "<group>"; };
+		FC4BF7112B579A4100F49476 /* github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.css; sourceTree = "<group>"; };
+		FC4BF7122B579A4100F49476 /* lopash.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = lopash.css; sourceTree = "<group>"; };
+		FC4BF7132B579A4100F49476 /* solarizeddark.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = solarizeddark.css; sourceTree = "<group>"; };
+		FC4BF7142B579A4100F49476 /* StyleSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +100,22 @@
 				FC4BF6F52B55A6E300F49476 /* Assets.xcassets */,
 				FC4BF6FA2B55A6E300F49476 /* Info.plist */,
 				FC4BF6FB2B55A6E300F49476 /* mac_markdown.entitlements */,
+				FC4BF70F2B579A3100F49476 /* StyleSheets */,
 				FC4BF6F72B55A6E300F49476 /* Preview Content */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FC4BF70F2B579A3100F49476 /* StyleSheets */ = {
+			isa = PBXGroup;
+			children = (
+				FC4BF7142B579A4100F49476 /* StyleSheet.swift */,
+				FC4BF7112B579A4100F49476 /* github.css */,
+				FC4BF7122B579A4100F49476 /* lopash.css */,
+				FC4BF7132B579A4100F49476 /* solarizeddark.css */,
+				FC4BF7102B579A4100F49476 /* ulysses.css */,
+			);
+			path = StyleSheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4BF7162B579A4100F49476 /* github.css in Resources */,
 				FC4BF6F92B55A6E300F49476 /* Preview Assets.xcassets in Resources */,
+				FC4BF7172B579A4100F49476 /* lopash.css in Resources */,
+				FC4BF7182B579A4100F49476 /* solarizeddark.css in Resources */,
+				FC4BF7152B579A4100F49476 /* ulysses.css in Resources */,
 				FC4BF6F62B55A6E300F49476 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +205,7 @@
 				FC4BF7082B57863700F49476 /* WebView.swift in Sources */,
 				FC4BF6F22B55A6E200F49476 /* MacMarkdownDocument.swift in Sources */,
 				FC4BF6F42B55A6E200F49476 /* ContentView.swift in Sources */,
+				FC4BF7192B579A4100F49476 /* StyleSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
