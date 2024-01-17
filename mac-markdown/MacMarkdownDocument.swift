@@ -5,6 +5,7 @@
 //  Created by afx on 15/01/2024.
 //
 
+import MarkdownKit
 import SwiftUI
 import UniformTypeIdentifiers
 
@@ -17,6 +18,11 @@ extension UTType {
 
 struct MacMarkdownDocument: FileDocument {
     var text: String
+    
+    var html: String {
+        let markdown = MarkdownParser.standard.parse(text)
+        return HtmlGenerator.standard.generate(doc: markdown)
+    }
 
     init(text: String = "# Hello, MacMarkDown!") {
         self.text = text
