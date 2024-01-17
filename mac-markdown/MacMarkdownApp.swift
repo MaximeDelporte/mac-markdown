@@ -13,5 +13,9 @@ struct MacMarkdownApp: App {
         DocumentGroup(newDocument: MacMarkdownDocument()) { file in
             ContentView(document: file.$document)
         }
+        
+        Settings {
+            SettingsView()
+        }
     }
 }

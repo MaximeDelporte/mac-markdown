@@ -15,6 +15,7 @@ struct ContentView: View {
             TextEditor(text: $document.text)
             WebView(html: document.html)
         }
+        .frame(minWidth: 400, minHeight: 300)
     }
 }
 

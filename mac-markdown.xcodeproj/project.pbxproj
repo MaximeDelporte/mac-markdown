@@ -15,6 +15,7 @@
 		FC4BF7042B57857600F49476 /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC4BF7032B57857600F49476 /* MarkdownKit */; };
 		FC4BF7062B57857600F49476 /* MarkdownKitProcess in Frameworks */ = {isa = PBXBuildFile; productRef = FC4BF7052B57857600F49476 /* MarkdownKitProcess */; };
 		FC4BF7082B57863700F49476 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF7072B57863700F49476 /* WebView.swift */; };
+		FC4BF70A2B578B1D00F49476 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BF7092B578B1D00F49476 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		FC4BF6FA2B55A6E300F49476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC4BF6FB2B55A6E300F49476 /* mac_markdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mac_markdown.entitlements; sourceTree = "<group>"; };
 		FC4BF7072B57863700F49476 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		FC4BF7092B578B1D00F49476 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				FC4BF6F32B55A6E200F49476 /* ContentView.swift */,
 				FC4BF6F12B55A6E200F49476 /* MacMarkdownDocument.swift */,
 				FC4BF7072B57863700F49476 /* WebView.swift */,
+				FC4BF7092B578B1D00F49476 /* SettingsView.swift */,
 				FC4BF7012B55A89600F49476 /* Resources */,
 			);
 			path = "mac-markdown";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4BF70A2B578B1D00F49476 /* SettingsView.swift in Sources */,
 				FC4BF6F02B55A6E200F49476 /* MacMarkdownApp.swift in Sources */,
 				FC4BF7082B57863700F49476 /* WebView.swift in Sources */,
 				FC4BF6F22B55A6E200F49476 /* MacMarkdownDocument.swift in Sources */,
